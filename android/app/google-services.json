@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "166692345983",
+    "project_id": "contatos-firebase-6cb4b",
+    "storage_bucket": "contatos-firebase-6cb4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166692345983:android:d902cc9cd148aeabbc874a",
+        "android_client_info": {
+          "package_name": "com.example.contatos_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166692345983-cii5lh3vqpcgctpp11l0ptjkpmg5jf0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC40zuvAUjM--4lSfeSBcAKBIDdcfzp1N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166692345983-cii5lh3vqpcgctpp11l0ptjkpmg5jf0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
