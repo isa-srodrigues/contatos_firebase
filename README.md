@@ -1,6 +1,5 @@
 # contatos_firebase
-
-A new Flutter application.
+Agenda de contatos desenvolvida em flutter armazenando dados na Firebase do google 
 
 ## Getting Started
 
