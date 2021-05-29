@@ -25,6 +25,10 @@ dependencies:
   firebase_auth: ^1.1.2 #autenticação
   cloud_firestore: ^1.0.7 #banco de dados
   firebase_core: ^1.1.0 #recursos basicos
+  http: ^0.13.3
+  image_picker:
+  path:
+  intl:
   flutter:
     sdk: flutter
 

@@ -99,6 +99,8 @@ class _PaginaListState extends State<PaginaList> {
           cc.endereco = c.data()['address'];
           cc.cep = c.data()['postal'];
           cc.telefone = c.data()['phone'];
+          cc.img = c.data()['image'];
+          cc.aniversario = c.data()['birthday'];
           contacts.add(cc);
         }
       });
@@ -141,11 +143,10 @@ class _PaginaListState extends State<PaginaList> {
                   Container(
                     width: 80.0,
                     height: 80.0,
-                    decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        image: DecorationImage(
-                            image: AssetImage("images/icon.jpg"),
-                            fit: BoxFit.cover)),
+                      child: FadeInImage.assetNetwork(
+                        placeholder: 'images/icon.jpg',
+                        image: (contacts[index].img!=null) ? (contacts[index].img) : "",
+                      )
                   ),
                   SizedBox(width: 15),
                   Expanded(
